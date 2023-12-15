@@ -1,0 +1,108 @@
+body {
+    background-color: #12343b;
+}
+
+.inline-block1 {
+    
+    font-size: 15pt;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+a {
+    color: #c89666;
+}
+
+a:hover {
+    color: white;
+}
+
+.contactme {
+    text-align: center;
+    font-size: 100px;
+    color: #c89666;
+}
+
+.x-logo {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1000px;
+}
+
+.fb-logo {
+    position: absolute;
+    height: 120px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.li-logo {
+    position: absolute;
+    height: 120px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 575px;
+}
+
+.ig-logo {
+    position: absolute;
+    height: 120px;
+    width: auto; 
+    margin-top: 50px;
+    margin-left: 825px   
+}
+
+.contactForm {
+    position: relative;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.message {
+    width: 400px;
+    height: 50px;
+}
+
+.projects {
+    text-align: center;
+    font-size: 100px;
+    color: #c89666;
+}
+
+.resume {
+    text-align: center;
+    font-size: 100px;
+    color: #c89666;
+}
+
+.home {
+    text-align: center;
+    font-size: 100px;
+    color: #c89666;
+}
+
+p {
+    color:#c89666;
+    font-size: 10px;
+    text-align: center;
+}
+
+.rights {
+    position: absolute;
+    left: 650px;
+    bottom: 0px;
+}
+
+/*
+.directory {
+    font-size: 15pt;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 75%;
+    transform: translateX(-50%)
+
+}
+*/
