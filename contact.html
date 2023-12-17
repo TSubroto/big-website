@@ -29,27 +29,37 @@
     </header>
     <main>
       <h1 class="contactme">Contact Me!</h1>
-      <a href="https://www.x.com">
-        <img src="img/x-logo.png" alt="X Logo" class="x-logo">
-        </a>
+        <a href="https://www.x.com">
+        <img src="img/x-logo.png" alt="X Logo" class="x-logo"></a>
+
         <a href="https://www.facebook.com">
-          <img src="img/fb-logo.png" alt="Facebook Logo" class="fb-logo">
-        </a>
+          <img src="img/fb-logo.png" alt="Facebook Logo" class="fb-logo"></a>
+
         <a href="https://www.linkedin.com">
-          <img src="img/li-logo.png" alt="Linked-In Logo" class="li-logo">
-        </a>
+          <img src="img/li-logo.png" alt="Linked-In Logo" class="li-logo"></a>
+
         <a href="https://instagram.com">
-          <img src="img/ig-logo.png" alt="Instagram Logo" class="ig-logo">
-        </a>
-      <form class="contactForm">
-        <label for="fullname"></label>
-        <input type="text" id="fullname" placeholder="Name"><br>
+          <img src="img/ig-logo.png" alt="Instagram Logo" class="ig-logo"></a> 
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post" class="contactForm">
+        <label for="fullName"></label>
+        <input type="text" id="fullName" placeholder="Name" required>
+
         <label for="email"></label>
-        <input type="text" id="email" placeholder="Email"><br>
+        <input type="text" id="email" placeholder="Email" required>
+
+        <label for="phoneNumber"></label>
+        <input type="tel" id="phoneNumber" pattern="\(\d{3}\) \d{3}-\d{4}" placeholder="(###) ###-####" required><br>
+
+        <label for="birthDate">Birthdate:</label>
+        <input type="date" id="birthDate" name="birthDate">
+
         <label for="message"></label>
-        <input type="text" id="message" placeholder="Type message here" class="message"><br>
+        <textarea id="message" placeholder="Type your message here" class="message" required></textarea>
+
         <input type="submit">
       </form>
+
     </main>
     <footer>
       <p class="rights">&copy; 2023 Subroto. All rights possibly reserved or something.</p>
